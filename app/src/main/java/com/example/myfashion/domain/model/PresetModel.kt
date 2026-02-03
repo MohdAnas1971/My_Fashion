@@ -1,7 +1,6 @@
 package com.example.myfashion.domain.model
 
 import com.example.myfashion.data.local.room.ClothingItem
-import com.example.myfashion.data.local.room.preset.Preset
 
 data class PresetModel(
     val id: Int,

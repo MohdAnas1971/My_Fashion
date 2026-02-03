@@ -1,4 +1,4 @@
-package com.example.infittron.presentation.navigation
+package com.example.myfashion.presentasion.navigation
 import kotlinx.serialization.Serializable
 
 sealed class NavRoutes {

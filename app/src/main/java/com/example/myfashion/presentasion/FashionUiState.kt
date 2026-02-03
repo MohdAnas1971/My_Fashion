@@ -1,7 +1,6 @@
 package com.example.myfashion.presentasion
 
 import com.example.myfashion.data.local.room.ClothingItem
-import com.example.myfashion.domain.model.ClothItem
 import com.example.myfashion.domain.model.Collection
 
 sealed class FashionUiState {

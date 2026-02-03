@@ -16,7 +16,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import com.example.infittron.presentation.navigation.NavRoutes
+import com.example.myfashion.presentasion.navigation.NavRoutes
 import com.example.myfashion.R
 import kotlinx.coroutines.delay
 

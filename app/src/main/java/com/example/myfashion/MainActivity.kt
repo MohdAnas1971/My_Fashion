@@ -1,32 +1,23 @@
 package com.example.myfashion
 
+import android.Manifest
+import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.annotation.RequiresApi
-import com.example.myfashion.presentasion.navigation.NavGraph
-import com.example.myfashion.ui.theme.MyFashionTheme
-import dagger.hilt.android.AndroidEntryPoint
-import android.Manifest
-import android.content.pm.PackageManager
-import android.graphics.Bitmap
-import android.graphics.Matrix
-import android.util.Log
-import androidx.camera.core.ImageCapture
-import androidx.camera.core.ImageCaptureException
-import androidx.camera.core.ImageProxy
-import androidx.camera.view.LifecycleCameraController
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.myfashion.data.local.room.ClothingDatabase
-import com.example.myfashion.data.repositoryImp.ClothingRepository
 import com.example.myfashion.presentasion.ThemeViewModel
-import com.example.myfashion.presentasion.crde_operation.ClothingViewModel
+import com.example.myfashion.presentasion.navigation.NavGraph
+import com.example.myfashion.ui.theme.MyFashionTheme
+import dagger.hilt.android.AndroidEntryPoint
 
 
 @AndroidEntryPoint

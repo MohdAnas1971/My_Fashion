@@ -24,8 +24,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.example.myfashion.presentasion.FashionUiState
-import com.example.myfashion.presentasion.FashionViewModel
 import com.example.myfashion.presentasion.ThemeViewModel
 import com.example.myfashion.presentasion.profile.ui_utils.ProfileActionsRow
 import com.example.myfashion.presentasion.profile.ui_utils.ProfileHeaderSection

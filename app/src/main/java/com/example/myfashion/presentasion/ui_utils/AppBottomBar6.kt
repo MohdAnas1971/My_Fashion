@@ -1,25 +1,12 @@
 package com.example.myfashion.presentasion.ui_utils
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AccountCircle
-import androidx.compose.material.icons.filled.Collections
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.SettingsOverscan
 import androidx.compose.material.icons.outlined.AccountCircle
 import androidx.compose.material.icons.outlined.Collections
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.SettingsOverscan
-import androidx.compose.material.icons.twotone.AccountCircle
-import androidx.compose.material.icons.twotone.Collections
-import androidx.compose.material.icons.twotone.Face
-import androidx.compose.material.icons.twotone.Home
-import androidx.compose.material.icons.twotone.SettingsOverscan
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -27,17 +14,14 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.infittron.presentation.navigation.NavRoutes
-import com.example.infittron.presentation.ui_utils.NavItem
+import com.example.myfashion.presentasion.navigation.NavRoutes
 
 
 @Composable

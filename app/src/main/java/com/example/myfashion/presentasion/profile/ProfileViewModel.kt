@@ -31,7 +31,7 @@ class ProfileViewModel @Inject constructor(
 
      val allPresets = presetRepository.getAllPresets()
 
-    private val _uiState = MutableStateFlow<ProfileUiState>(ProfileUiState())
+    private val _uiState = MutableStateFlow(ProfileUiState())
     val uiState: StateFlow<ProfileUiState> = _uiState
 
 

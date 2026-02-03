@@ -2,7 +2,6 @@ package com.example.myfashion.data.local.room
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import androidx.room.TypeConverter
 import java.util.UUID
 
 @Entity(tableName = "clothing_items")

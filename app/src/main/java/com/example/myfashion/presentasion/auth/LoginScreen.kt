@@ -43,7 +43,7 @@ fun LoginScreen() {
                 modifier = Modifier
                     .fillMaxSize()
                     .background(
-                        brush = androidx.compose.ui.graphics.Brush.verticalGradient(
+                        brush = Brush.verticalGradient(
                             colors = listOf(
                                 MaterialTheme.colorScheme.primary.copy(alpha = 0.1f),
                                 MaterialTheme.colorScheme.primary.copy(alpha = 0.05f),

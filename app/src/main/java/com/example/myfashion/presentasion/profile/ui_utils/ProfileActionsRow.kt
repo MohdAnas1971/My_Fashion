@@ -37,7 +37,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.infittron.presentation.navigation.NavRoutes
+import com.example.myfashion.presentasion.navigation.NavRoutes
 
 @Composable
 fun ProfileActionsRow(navController: NavController) {

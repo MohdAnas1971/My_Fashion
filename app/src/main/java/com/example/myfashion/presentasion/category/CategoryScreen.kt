@@ -85,7 +85,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.infittron.presentation.navigation.NavRoutes
+import com.example.myfashion.presentasion.navigation.NavRoutes
 import com.example.myfashion.data.local.MockData
 import com.example.myfashion.data.local.room.ClothingItem
 import com.example.myfashion.presentasion.Category
@@ -94,7 +94,6 @@ import com.example.myfashion.presentasion.collection.AddEditPresetViewModel
 import com.example.myfashion.presentasion.crde_operation.ClothingViewModel
 import com.example.myfashion.ui.theme.CloudyColor
 import com.example.myfashion.ui.theme.SunnyColor
-import kotlinx.coroutines.delay
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -541,7 +540,7 @@ fun ClothingItemCard(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        text = item.color ?: "",
+                        text = item.color,
                         style = MaterialTheme.typography.labelSmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )

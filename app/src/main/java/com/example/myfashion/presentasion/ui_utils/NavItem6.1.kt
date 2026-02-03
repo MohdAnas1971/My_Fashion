@@ -1,7 +1,7 @@
-package com.example.infittron.presentation.ui_utils
+package com.example.myfashion.presentasion.ui_utils
 
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.example.infittron.presentation.navigation.NavRoutes
+import com.example.myfashion.presentasion.navigation.NavRoutes
 
 // ✅ Data class for Nav Items
 data class NavItem(

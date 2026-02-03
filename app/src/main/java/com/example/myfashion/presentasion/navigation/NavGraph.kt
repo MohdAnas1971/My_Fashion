@@ -7,7 +7,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
-import com.example.infittron.presentation.navigation.NavRoutes
 import com.example.myfashion.presentasion.FashionViewModel
 import com.example.myfashion.presentasion.auth.LoginScreen
 import com.example.myfashion.presentasion.auth.LoginSignUpOptionScreen
